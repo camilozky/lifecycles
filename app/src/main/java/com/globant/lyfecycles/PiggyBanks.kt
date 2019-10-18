@@ -60,7 +60,6 @@ class PiggyBank(var one: Int, var two: Int, var five: Int, var open: Boolean) {
         return getTotalValue()
     }
 }
-
 fun main() {
     println("Hello, world!!!")
     val blondePiggyBank = PiggyBank(10, 10, 5, true)
